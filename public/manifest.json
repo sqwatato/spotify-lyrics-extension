@@ -5,5 +5,16 @@
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
-    }
+    },
+    
+    "content_scripts": [{
+        "matches": ["https://open.spotify.com/*"],
+        "js": ["contentscript.js"]
+    }],
+    "permissions": [
+        "storage",
+        "tabs",
+        "alarms"
+    ]
+
 }
