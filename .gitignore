@@ -2,3 +2,5 @@ node_modules
 dist
 test.json
 lib
+yarn-error.log
+package-lock.json
